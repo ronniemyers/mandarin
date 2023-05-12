@@ -1,3 +1,41 @@
 use mandarin;
-INSERT INTO hsk1 (date_added, mandarin_character, pinyin, translation, sentence, tag, description) 
-VALUES (CURDATE(), '八', 'bā', 'eight; 8', '他的生日是八月二十二日。- His birthday is on August 22nd.', 'number', null);
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence, tag) 
+-- VALUES ('爱', '	ài', 'to love; affection; to be fond of; to like', '我爱你。 - I love you.','relationship');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence, tag) 
+-- VALUES ('八', 'bēi zi', 'cup; glass', '他的生日是八月二十二日。- His birthday is on August 22nd.','number');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence, tag) 
+-- VALUES ('爸爸', 'bà ba', 'father (informal)', '我爸爸今天生日，我要给他买一个礼物。- It''s my dad''s birthday today, I want to buy him a gift.','relationship');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('杯子', 'bēi zi', 'cup; glass', '我需要一个杯子来喝水。- I need a cup to drink water.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('北京', 'běi jīng', 'Beijing; capital of People''s Republic of China; Peking; PRC government', '我计划明年去北京旅游。I plan to travel to Beijing next year.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('本', 'běn', 'origin; source; roots or stems of plants; this; the current; root; foundation', '我正在读这本书，它非常有趣。I am reading this book and it is very interesting.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('不客气', 'bú kè qi', 'you''re welcome; it''s my pleasure', '谢谢你的帮助。Thank you for your help.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('不', 'bù', 'not (negative prefix); no', '我今天不想工作，想休息一下。I don''t want to work today, I want to rest for a bit.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence, tag) 
+-- VALUES ('菜', 'cài', 'dish (type of food); vegetables; vegetable; cuisine', '我喜欢吃中餐里的菜，比如糖醋里脊和宫保鸡丁。I like the dishes in Chinese cuisine, such as sweet and sour pork and Kung Pao chicken.', 'food');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence, tag) 
+-- VALUES ('茶', 'chá', 'tea; tea plant', '我喜欢喝绿茶，因为它对健康有好处。- I like to drink green tea because it is good for my health.', 'food');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('吃', 'chī', 'to eat; to have one''s meal; to eradicate; to destroy; to absorb; to suffer; to exhaust', '我现在很饿，想去吃点东西。- I am very hungry now and want to go eat something.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('出租车', 'chū zū chē', 'taxi', '我们可以打出租车去机场，这样更方便。- We can take a taxi to the airport, which is more convenient.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('打电话', 'dǎ diàn huà', 'to make a phone call', '我现在要给我妈妈打电话，告诉她我已经到家了。- I am going to call my mom now to tell her that I have arrived home.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('大', 'dà', 'big; huge; large; major; great; wide; deep; oldest; eldest', '我的妈妈是一个很聪明、很善良的人，她也很漂亮，是我心中最大的女英雄。- My mother is a very smart, kind, and beautiful person. She is my biggest female hero.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('的', 'de', 'of; structural particle: used before a noun, linking it to preceding possessive or descriptive attributive', '这是我妹妹的新房子，她的丈夫设计了整个房子的装修。- This is my sister''s new house, and her husband designed the decoration for the whole house.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('点', 'diǎn', 'a little; a bit; drop (of liquid); stain; spot', '我想点一份炒饭和两个春卷，你呢？- I would like to order a fried rice and two spring rolls, what about you?');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('电脑', 'diàn nǎo', 'computer', '我的电脑坏了，需要修理。- My computer is broken and needs to be repaired.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('电视', 'diàn shì', 'television; TV', '爸爸喜欢看新闻，所以他每天晚上都会打开电视。- Dad likes to watch the news, so he turns on the TV every evening.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('电影', 'diàn yǐng', 'movie; film', '明天晚上，我们一起去看电影吧。- Let''s go watch a movie together tomorrow night.');
+-- INSERT INTO hsk1 (word, pinyin, translation, sentence) 
+-- VALUES ('东西', 'dōng xi', 'thing; stuff; person', '你要买什么东西？我可以帮你找。- What do you want to buy? I can help you find it.');
